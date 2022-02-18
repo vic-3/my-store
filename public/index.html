@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" src="#" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="script"
+    />
+   
+    <title>E-commerce script</title>
+    <script>
+      var cart;
+    if(localStorage.getItem('cart')){
+       cart=JSON.parse(localStorage.getItem('cart'));
+    }
+    else{
+      cart=[]
+      localStorage.setItem('cart',JSON.stringify(cart));
+    }
+
+//getText("http://localhost/shop/templates/Mall/usercart.php")
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" class="wrapper"></div>
+    <div id="myroot"></div>
+
+    <script src="jquery.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="all.js"></script>
+    
+  </body>
+</html>

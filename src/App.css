@@ -1,0 +1,45 @@
+
+nav{
+    background-color:#fc6e20;
+}
+ .right{
+    float: right; 
+ }
+#header-btns{
+    float: right;
+}
+.product-card{
+    font-size: 14px;
+}
+footer{
+    background-color: #1b1b1b;
+}
+.search-btn{
+    float: left;
+}
+.buy-btn{
+    background-color: #fc6e20;
+    font-weight: 400;
+}
+.secondary-btn{
+    background-color:whitesmoke;
+    font-weight: 300;
+    color: #323232;
+}
+.bg-dark{
+    color: #323232;
+}
+.d-inline{
+    overflow-x: auto;
+    display: inline-block;
+  
+}
+.checkout-btn{
+    background-color: #fc6e20;
+}
+.empty-cart-icon{
+    font-size: 50px;
+}
+.product-image{
+    height:120px;
+}
